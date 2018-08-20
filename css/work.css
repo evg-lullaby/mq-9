@@ -41,28 +41,7 @@ body * {
 	text-align: center;
 }
 
-@media (min-width:641px) {
-	.wrapper1560-img {
-		position: absolute;
-		top: 3.5%;
-		-webkit-transform: translateX(-50%);
-		-ms-transform: translateX(-50%);
-		transform: translateX(-50%);
-		left: 50%;
-	}
-}
 
-@media (min-width:641px) and (max-width: 960px) {
-	.wrapper1560-img {
-		left: 43.5%;
-	}
-	.top-section_athlets .wrapper1560-img {
-		top: 12.5%;
-	}
-	.top-section_players .wrapper1560-img {
-		top: 4%;
-	}
-}
 
 
 /*header block start*/
@@ -549,8 +528,29 @@ body * {
 	}
 }
 
+@media (min-width:641px) {
+	.wrapper1560-img {
+		position: absolute;
+		top: 3.5%;
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+		left: 50%;
+	}
+}
+
 @media (min-width: 641px) and (max-width: 960px) {
 	/*header block start*/
+	.wrapper1560-img {
+		left: 43.5%;
+	}
+
+	.top-section_athlets .wrapper1560-img {
+		top: 12.5%;
+	}
+	.top-section_players .wrapper1560-img {
+		top: 4%;
+	}
 	.header,
 	.footer {
 		-webkit-box-align: center;

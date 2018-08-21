@@ -789,8 +789,7 @@ body * {
     letter-spacing: 5px;
   }
   .header__subtitle {
-    padding-left: 450px;
-    padding-left: 29%;
+    padding-left: 24%;
     letter-spacing: 4.8px;
   }
   .download-btns {

@@ -151,7 +151,7 @@ body * {
 	align-items: center;
 }
 
-.top-section .top-section_players {
+.top-section.top-section_players {
 	overflow: hidden;
 }
 
@@ -967,7 +967,7 @@ body * {
 	}
 	.middle-section__item:nth-child(2n) .middle-section__text {
 		position: absolute;
-		max-width: 1700px;
+		max-width: 1610px;
 		width: 100%;
 		-webkit-box-align: start;
 		-ms-flex-align: start;
@@ -979,7 +979,7 @@ body * {
 	}
 	.middle-section__item:nth-child(2n) .middle-section__title,
 	.middle-section__item:nth-child(2n) .middle-section__paragraf {
-		width: 48%;
+		width: 47%;
 	}
 
 	.middle-section__title {

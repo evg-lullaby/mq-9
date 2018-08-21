@@ -30,14 +30,14 @@ body * {
   margin: -1px;
 }
 
-.wrapper1560 {
+.wrapper-max-width {
   width: 100%;
   max-width: 1560px;
   margin: 0 auto;
   position: relative;
 }
 
-.wrapper1560-img {
+.wrapper-max-width-img {
   text-align: center;
 }
 
